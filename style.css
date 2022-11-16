@@ -1,0 +1,58 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(48, 48, 48);
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(66, 66, 66, 0.7);
+    padding: 3rem;
+    width: 30vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.logo svg {
+    height: 100px;
+    fill: white;
+}
+
+.logo .t {
+    display: flex;
+    flex-direction: column;
+}
+
+.t span {
+    text-align: center;
+}
+
+.title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+    font-weight: 600;
+}
+
+#subdomains {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    resize: none;
+    margin-bottom: 1rem;
+}
+
+.filter {
+    margin: 2rem 0;
+}
+
+#myList li {
+    background-color: rgb(48, 48, 48);
+}
