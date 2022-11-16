@@ -117,21 +117,6 @@
         <option value="back">back</option>
       </select>
     </div>
-
-    <ul class="list-group text-center" id="myList">
-      <!-- <li class="list-group-item">
-        <a href="#" class="btn btn-link">First item</a>
-      </li>
-      <li class="list-group-item">
-        <a href="#" class="btn btn-link">First item</a>
-      </li>
-      <li class="list-group-item">
-        <a href="#" class="btn btn-link">First item</a>
-      </li>
-      <li class="list-group-item">
-        <a href="#" class="btn btn-link">First item</a>
-      </li> -->
-    </ul> 
   </div>
 
   <script>
@@ -147,7 +132,8 @@
       li.className = 'list-group-item';
       var a = document.createElement('a');
       a.className = 'btn btn-link text-white';
-	a.href = subdomain;
+      a.href = subdomain;
+      a.setAttribute('target', '_blank');
       ul.appendChild(li);
       li.appendChild(a);
       a.textContent = subdomain;
